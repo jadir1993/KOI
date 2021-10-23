@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+
+*{box-sizing: border-box;}
+img{max-width:  100%;}
+
+body {
+    background-color: #000000;
+    border: 0.2em solid #eaeaea;
+    }
+
+body:hover {border: 0.2em solid #ffffff;}
+
+header{
+    margin: 1em;
+    text-align: center;
+    }
+
+header ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    padding: 0;
+}
+
+header li {
+    list-style: none;
+     }
+
+header a {
+    text-decoration: none;
+    font-family:sans-serif;
+    margin-right: 3em;
+    margin-left: 3em;
+   }
+
+header a:hover {
+    color: #358e61;
+}
+
+
+.blanco {
+    color: white;
+}
+
+.verde {
+    color: #3d816a
+}
+
+
+header img{
+    opacity: 90%;
+}
+
+#lo
+
+header img:hover {
+    opacity: 100%
+}
+
+header div{text-align: center;
+}
+
+
+
+
+
+
+
+main{
+    margin: 1em;
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: white;
+    opacity: 90%;
+    font-size: 1em;
+    padding-top: 1em;
+}
+
+
+h1:hover {
+    opacity: 100%
+}
+
+main li{
+    list-style: none;
+}
+
+
+main  a {text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+   
+}
+
+
+
+#jadir {
+    width: 12em;
+    opacity: 93%;
+    margin: 0 1em
+}
+
+
+
+#jadir:hover{opacity: 100%;}
+
+
+
+#huerta {
+    padding-bottom: 2em;
+   
+  }
+
+h2{
+    margin-top: 2em;
+    padding-top: 1em;
+    font-family: sans-serif;
+    font-size: 1em;
+    color:#3d816a;
+
+}
+
+#huerta p{
+    margin: 1em auto 1em auto;
+    font-family: sans-serif;
+    color: #ffffff;
+   font-size: 1em;
+    }
+
+#huerta ul{
+    padding: 0}
+
+#huerta li{
+    margin: 2em 1em 1em 1em;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: left;
+}
+
+
+strong{
+     color:#3d816a; 
+}
+
+
+#fotoshuerta img{
+    width: 70%;
+    margin: 1em 0 1em 0 ;
+ }
+
+#acumar img{ 
+    width: 10em;  
+    margin-bottom: 2em;
+    margin-top: 2em;
+} 
+
+#logomoron img{
+    width: 7em;   
+}
+
+
+
+
+
+#mvpsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mvpsection a {
+    background-color: white;
+    opacity: 90%;
+    margin: 2em 2em 0em 2em;
+    padding: 1em 1em 1em 1em;
+    color: #000000;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+#mvpsection a:hover {
+    opacity: 100%;
+    color: #3d816a;
+}
+
+
+
+#datos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding:1em;
+    margin: 1em;
+
+
+ }
+
+#datos div{
+    margin: 2em 0em 0em 0em;
+}
+
+#datos h4{
+    margin: 1em auto 0em auto;
+    color: antiquewhite;
+}
+
+#datos a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+
+#datos ul {
+    list-style: none;
+    margin-top: 1em;
+}
+
+#datos div ul li {
+    text-align: left;
+}
+
+
+
+
+@media screen and (min-width: 640px) {
+
+
+
+
+
+
+    
+  #datos{
+    max-width: 100%;
+    padding:1em;
+    margin-top: 2em;
+    color:white;
+   }
+    
+      
+    #datos h4{
+        margin: 1em auto 1em auto;
+        text-align: center;
+        padding: 0em 30% 0em 30%;
+         color: #358e61;
+       
+    }
+    
+    #datos div{
+        margin: 1em auto 0em auto;
+        max-width: 33%;
+        text-align: center;
+    }
+ 
+   
+    #datos div ul li {
+    font-size: 0.8em;
+        text-align: center;
+}
+
+#huerta {
+    margin: 0em 15em 0em 15em;}
+   
+
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+    margin: 1em;
+    padding-top: 1em;
+}
+
+
+h3{
+    font-size: small;
+    color:  #358e61;
+}
+
+
+
+footer p {
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #5a5a5a;
+    font-size: small;
+    text-align: justify;
+}
+
+
+}
+

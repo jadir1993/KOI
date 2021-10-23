@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset=UTF-8>
+    <title> UBA, FADU, DGPC - Cátedra Díaz Cortez - Diseño Gráfico y Diseño de Imagen y Sonido - Anibal Guebel -  Jadir Rojas Gomez - ACUMAR - Huerta Agroecológica Morón Surco - 2º cuat. 2020 </title>
+
+    <meta name="description" content="Cátedra Díaz Cortez - Acumar - Huerta Agroecológica Morón Surco">
+
+    <meta name="viewport" content="width=device-width,
+initial-scale=1, shrink-to-fit=no">
+
+    
+
+
+    <link href="css/estilos.css" rel="stylesheet" />
+    
+    <script src=“js/jquery.js”></script>
+</head>
+
+<body>
+    <header>
+ 
+        <nav id="menu">
+            <button id="llamamenu" title="abre / cierra el menu">
+                <i class="material-icons">menu</i>
+            </button>
+            <ul class="visible">
+                <li><a href="../index.html">VM50</a></li>
+                <li><a href="../plan.html">PLAN</a></li>
+                <li><a href="../mapa.html">MAPA</a></li>
+                <li><a href="../webapp/">WEBAPP</a></li>
+            </ul>
+        </nav>
+
+        <div id="redes">
+            <a class="insta" href="https://www.instagram.com/yairzzz/" target="_blank"> <img id="instagram" src="imagenes/instagram.png" alt="instagram"></a>
+            <a class="what" href=https://wa.me/541134355710 target="_blank"><img id="whatsapp" src="imagenes/whatsapp.png" alt="whatsapp"></a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="jadir">
+
+            <h1>Jadir Orlando Rojas Gomez</h1>
+            <figure id="foto">
+                <img src="imagenes/foto.jpg" alt="foto jadir">
+            </figure>
+
+            <p>Estudiante de la carrera de Diseño de Imagen y Sonido en la Facultad de Arquitectura Diseño y Urbanismo </p>
+
+
+            <h2> Materias en curso </h2>
+            <ul>
+
+                <li><a href="http://www.diazcortez.com.ar/tps/actuales/vm.php" target="_blank"> Diseño Gráfico Por Computación</a></li>
+
+                <li>
+                    <a href="https://materiainvestigacion.wordpress.com/" target="_blank"> Investigación</a>
+                </li>
+            </ul>
+
+            <div id="materiasaprobadas"> <a href="imagenes/plandeestudios.jpg" alt="plan de estudio" target="_blank"> 74.07 % Materias Aprobadas </a>
+            </div>
+
+
+
+
+        </section>
+
+        <div id="contenedor">
+            <section id="acumar">
+
+                <img id="logomoron" src="imagenes/logomoron.png" alt="logo moron">
+                <h3> Huerta Agroecológica Morón SurCo </h3>
+                <p>Morón SurCo es un emprendimiento asociativo que funciona en el Espacio de Agroecología Urbana de Morón.</p>
+                <img class="imge" src="imagenes/moron2.jpg" alt="moron surco">
+                <img class="imge" src="imagenes/moron1.jpg" alt="moron surco 2">
+                <img class="imge" src="imagenes/moron3.jpg" alt="moron surco 3">
+
+
+            </section>
+
+            <div id="boceto"> <a href="../imagenes/pantallas.pdf" alt="boceto" target="_blank"> Boceto Individual </a></div>
+            <div id="datos">
+                <h4>INFORMACIÓN ACADÉMICA</h4>
+
+                <div id="universidad">
+                    <a href="http://www.uba.ar/" alt="uba" target="_blank"> Universidad de Buenos Aires</a>
+
+                    <ul>
+                        <li>Rector: Prof. Dr. Alberto Edgardo Barbieri</li>
+                        <li>Secretario General: Dr. Juan Pablo Más Vélez</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="http://www.fadu.uba.ar/" alt="fadu" target="_blank"> Facultad de Arquitectura, Diseño y Urbanismo</a>
+                    <ul>
+                        <li>Decano: Arq. Guillermo Cabrera</li>
+                        <li>Vicedecano: DG Carlos Venancio</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="http://diazcortez.com.ar/index.php" alt="Diseño Grafico Por Computadora" target="_blank"> Diseño Grafico Por Computadora</a>
+                    <ul>
+                        <li>Cátedra: DG Martín Díaz Cortez</li>
+                        <li>Adjuntos: DG Anibal Ocampo </li>
+                        <li>JTP: DG German Diaz Colodrero </li>
+                        <li>DG: Anibal Guebel </li>
+                        <li>Docentes: Rita Rodríguez Álvarez y Milagros Pierin </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Los contenidos publicados en estas páginas han sido tomados por alumnos de una materia de la Universidad de Buenos Aires para la realización de un trabajo práctico. Los textos, logotipos, fotografías, tipografías, etc., pueden no ser de su autoría y sólo son utilizados a los fines prácticos del ejercicio.</p>
+    </footer>
+
+
+    <script>
+        $(document).ready(function() {
+            $("#llamamenu").click(function()
+                                  {$("header nav ul").toggleClass("visible");});
+           var icono= $("#llamamenu i".text();
+            if(icono="menu"){$("#llamamenu i").text("close")
+           }else{
+            $("#llamamenu i").text("menu")
+           }
+        });
+
+    </script>>
+</body>
+
+</html>
