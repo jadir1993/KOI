@@ -31,9 +31,10 @@ header a {
     font-family:sans-serif;
     margin-right: 3em;
     margin-left: 3em;
+    color: #0001;
    }
 
 img {
   height: auto;
-  width: 150px;
+  width: 50px;
 }
