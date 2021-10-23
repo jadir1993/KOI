@@ -3,7 +3,7 @@ img{max-width:  100%;}
 
 body {
     background-color: #000000;
-    border: 0.2em solid #eaeaea;
+    border: 0.2em solid blue;
     color: white;    }
 
 
@@ -31,7 +31,7 @@ header a {
     font-family:sans-serif;
     margin-right: 3em;
     margin-left: 3em;
-    color: #0001;
+    color: white;
    }
 
 img {
