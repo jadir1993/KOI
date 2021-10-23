@@ -30,3 +30,8 @@ header a {
     margin-right: 3em;
     margin-left: 3em;
    }
+
+img {
+  max-width: 50%;
+  height: auto;
+}
